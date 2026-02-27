@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "inter";
+  src: url("../../assets/fonts/static/Inter-Regular.ttf");
+}
+
+body {
+  font-family: "inter";
+  color: aliceblue;
+  background-color: rgb(33, 32, 32);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
