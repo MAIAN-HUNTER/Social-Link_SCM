@@ -4,12 +4,13 @@
 }
 
 body {
+  margin: 0;
   font-family: "inter";
   color: aliceblue;
   background-color: rgb(33, 32, 32);
 }
 .attribution {
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
 }
 
@@ -24,4 +25,11 @@ ul {
 a {
   text-decoration: none;
   color: #ffff;
+}
+
+@media (max-width: 600px) {
+  .attribution {
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
