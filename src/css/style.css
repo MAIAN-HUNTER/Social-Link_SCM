@@ -5,9 +5,9 @@
 }
 
 .front {
-  margin: 50px 0;
+  margin: 50px 10px 10px;
   padding: 20px;
-  width: min(90%, 380px);
+  width: min(90%, 400px);
   text-align: center;
   background-color: rgb(14, 14, 14);
   border-radius: 10px;
@@ -28,8 +28,9 @@ img {
 .menu {
   display: grid;
   grid-template-columns: minmax(230px, 380px);
-  grid-gap: 15px;
+  grid-gap:15px;
   justify-content: center;
+  padding-left: 10px;
 }
 
 .menu li {
@@ -46,3 +47,10 @@ img {
   color: #ffff;
 }
 
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
